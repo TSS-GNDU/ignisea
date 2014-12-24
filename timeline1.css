@@ -11,7 +11,6 @@
 }
 
 .timeline  ul {
-	/*width:33.33%;*/
 	position:relative;
 }
 .timeline>ul>li{
@@ -112,123 +111,119 @@ font-size:30px;
 }
 
 .day1{
-	position:relative;
+	position:relative;	
 }
 .day2{
 	position:relative;
-	left:100%;
-	top:-1920px;
-
+	left:110%;
+	top:-1931px;
 }
 
 .day3 {
 	position:relative;
-	left:200%;
-	top:-3840px;
+	left:110%;
+	top:-3862px;
 }
-
 input[type="radio"]
 {
 	opacity:0;
 }
 
-input[type="radio"]#day1:checked ~ ul.day1 {
-visibility:visible;
--webkit-animation: entry 3s ease-out; /* Chrome, Safari, Opera */
-animation: entry 3s ease-out;
-left:0%;
+input[type="radio"]#day1:checked ~ .timeline>.day1 {
+
+	-webkit-animation: entry 3s ease-in-out; /* Chrome, Safari, Opera */
+    animation: entry 3s ease-in-out;
+	position:relative;
+	left:0%;
+	
 }
-
-input[type="radio"]#day1:checked ~ ul.day2{
--webkit-animation: exit 2s;
-animation:exit 2s;
-left:110%;
+input[type="radio"]#day1:checked ~ .timeline>.day2 {
+-webkit-animation: exit 2s; /* Chrome, Safari, Opera */
+    animation: exit 2s;
+	position:relative;
+	left:-110%;
+	
 }
-
-input[type="radio"]#day1:checked ~ ul.day3{
--webkit-animation: exit 2s;
-animation:exit 2s;
-left:110%;
+input[type="radio"]#day1:checked ~ .timeline>.day3 {
+	-webkit-animation: exit 2s; /* Chrome, Safari, Opera */
+    animation: exit 2s;
+	position:relative;
+	left:-110%;
 }
-
-input[type="radio"]#day2:checked ~ ul.day2 {
-display:inline;
-visibility:visible;
--webkit-animation: entry 3s ease-out; /* Chrome, Safari, Opera */
-animation: entry 3s ease-out;
-left:0%;
-}
-
-input[type="radio"]#day2:checked ~ ul.day1{
--webkit-animation: exit 2s;
-animation:exit 2s;
-left:110%;
-
-}
-
-input[type="radio"]#day2:checked ~ ul.day3{
--webkit-animation: exit 2s;
-animation:exit 2s;
-left:110%;
-}
-
-input[type="radio"]#day3:checked ~ ul.day3 {
-display:inline;
-visibility:visible;
--webkit-animation: entry 3s ease-out ; /* Chrome, Safari, Opera */
-animation: entry 3s ease-out ;
-left:0%;
-
-}
-
-input[type="radio"]#day3:checked ~ ul.day1{
--webkit-animation: exit 2s;
-animation:exit 2s;
-left:110%;
-}
-
-input[type="radio"]#day3:checked ~ ul.day2{
--webkit-animation: exit 2s;
-animation:exit 2s;
-left:110%;
-}
-
-/*
-input[type="radio"]#day1:checked .timeline  {
-opacity:0;
--webkit-animation: entry 1s ease-in-out; /* Chrome, Safari, Opera 
-    animation: entry 1s;
+input[type="radio"]#day2:checked~ .timeline>ul.day1{
+	-webkit-animation: exit 2s; /* Chrome, Safari, Opera */
+    animation: exit 2s;
+	position:relative;
+	left :-110%;
+	
 }
 input[type="radio"]#day2:checked~ .timeline>ul.day2{
+
+-webkit-animation: entry 3s ease-in-out; /* Chrome, Safari, Opera */
+    animation: entry 3s ease-in-out;
+	position:relative;
+	left:0%;
 	
--webkit-animation: entry 1s; /* Chrome, Safari, Opera 
-    animation: entry 1s;
 }
-input[type="radio"]#day3:checked~ ul.day3{
--webkit-animation: entry 1s; /* Chrome, Safari, Opera 
-    animation: entry 1s;
+
+input[type="radio"]#day2:checked~ .timeline>ul.day3{
+-webkit-animation: exit 2s; /* Chrome, Safari, Opera */
+    animation: exit 2s;
+	position:relative;
+	left :-110%;
+	
+	}
+input[type="radio"]#day3:checked~ .timeline >ul.day1{
+	
+	-webkit-animation: exit 2s ; /* Chrome, Safari, Opera */
+    animation: exit 2s;
+	position:relative;
+	left:-110%;
+	
+	
 }
-*/
+input[type="radio"]#day3:checked~ .timeline >ul.day2{
+
+	-webkit-animation: exit 2s; /* Chrome, Safari, Opera */
+    animation: exit 2s;
+	position:relative;
+	left :-110%;
+	
+}
+input[type="radio"]#day3:checked~ .timeline >ul.day3{
+	
+   -webkit-animation: entry 3s ease-in-out; /* Chrome, Safari, Opera */
+    animation: entry 3s ease-in-out;
+	position:relative;
+	left:0%;
+}
 
 /* Chrome, Safari, Opera */
+
 @-webkit-keyframes entry {
-    from {left:100%; visibility:hidden;}
-    to {left:4%; visibility:visible;}
+    from {left:110%; visibility:hidden;}
+    to {left:0%; visibility:visible;}
 }
 
 /* Standard syntax */
 @keyframes entry {
-    from {left:100%; visibility:hidden;}
-    to {left:4%; visibility:visible;}
+    from {left:110%;visibility:hidden; }
+    to {left:0%; visibility:visible;}
 }
 
 @-webkit-keyframes exit {
-    from {left:100%; visibility:visible;}
-    to {left:4%; visibility:hidden;}
+    from {
+		left:0%; 
+	}
+    to {
+	left:-110%; 
+	visibility:hidden;
+	
+}
 }
 
 /* Standard syntax */
 @keyframes exit {
-    from {left:4%; visibility:visible;}
-    to {left:-110%; visibility:hidden;}
+    from {left:0%;}
+    to {left:-110%;visibility:hidden;}
 }
