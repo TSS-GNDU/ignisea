@@ -3488,10 +3488,7 @@ height:100%;
     opacity:0;
     filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 }
-<<<<<<< HEAD
 
-
-=======
 .description{
     width:120px;
     margin:40px auto;
@@ -3551,7 +3548,7 @@ background:#0066FF url(bg.png) no-repeat top right;
 width:1347px;
 margin-top:42px;
 }
-<<<<<<< HEAD
+
 #tile3{
 height:630px;
 background:#a7cede url(bg.png) no-repeat top right;
@@ -3577,11 +3574,10 @@ margin-top:-30px;
 width:1347px;
 }
 
-=======
 .nobottom{
 	margin-bottom:-10px !important;
 }
->>>>>>> 22b6c907a07ea225be3ade5973a39725f328fc4d
+
 
 #heading1{
 color:white;
