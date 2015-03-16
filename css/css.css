@@ -1718,7 +1718,7 @@ ul#left_control{
 
 
 /*=========Sports & Gaming Page MEDIA QUERIES starts==========*/
-@media screen and (min-width:290px) and (min-height: 480px) and (max-width: 359px){
+@media screen and (min-width:320px) and (min-height: 480px) and (max-width: 359px){
 	.sports_title{
 		padding-top:15px;
 		padding-bottom: 15px;
@@ -2244,12 +2244,12 @@ font-size: 1.8em;
   font-weight: 800;	
   font-weight: bolder;
  /* margin-top: -150px;*/
-  padding-left: 60px;
+  padding-left: 90px;
 }
 .cul_link_tile5
 {
 	color: red !important;
-  font-size: 2.5em !important;
+  font-size: 3em !important;
   font-family: 'Raleway-ExtraLight';
   font-weight: 800;
 }
@@ -3252,7 +3252,7 @@ height:100%;
 }
 .letter-container h2 {
 	text-align: center;
-	font-family:'Raleway-ExtraLight';
+	font-family: 'Arvo', Arial, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -3265,7 +3265,7 @@ height:100%;
 	font-size: 105px;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	filter: alpha(opacity=90);
-	color: #CCFF66;
+	color: #FF9999;
    	opacity: 1;
    	text-shadow: 0px 0px 2px #444, 1px 1px 4px rgba(0,0,0,0.7);
 	-webkit-mask-image: url(../images/final.png);
@@ -3488,7 +3488,6 @@ height:100%;
     opacity:0;
     filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 }
-
 .description{
     width:120px;
     margin:40px auto;
@@ -3511,12 +3510,11 @@ height:100%;
     color:#f0f0f0;
 }
 
->>>>>>> 22b6c907a07ea225be3ade5973a39725f328fc4d
 
 #toptile
 {
 background-color:pink;
-height:645px;
+height:630px;
 width:1347px;
 }
 #topcontainer
@@ -3525,16 +3523,6 @@ margin-top:2%;
 height:40%;
 margin-bottom:5%;
 width:400px;
-}
-#headingtop{
-color:#CCFF66;
-font-family:Raleway-ExtraLight;
-
-}
-#headingtop2
-{color:#CCFF66;
-font-family:'Raleway-Extralight';
-margin-left:700px;
 }
 #tile1{
 height:630px;
@@ -3548,42 +3536,15 @@ background:#0066FF url(bg.png) no-repeat top right;
 width:1347px;
 margin-top:42px;
 }
-
-#tile3{
-height:630px;
-background:#a7cede url(bg.png) no-repeat top right;
-margin-top:-30px;
-width:1347px;
-}
-#tile5{
-height:630px;
-background:#a7cede url(bg.png) no-repeat top right;
-margin-top:-30px;
-width:1347px;
-}
-#tilesupersix{
-height:1000px !important;
-background:#0066FF url(bg.png) no-repeat top right;
-width:1347px;
-margin-top:42px;
-}
-#tile7{
-height:630px;
-background:#a7cede url(bg.png) no-repeat top right;
-margin-top:-30px;
-width:1347px;
-}
-
 .nobottom{
 	margin-bottom:-10px !important;
 }
-
 
 #heading1{
 color:white;
 font-size:34px;
 font-family:'Raleway-ExtraLight';
-
+font-weight:bold;
 margin-left:-150px;
 margin-top:-450px;
  }
@@ -3592,7 +3553,7 @@ margin-top:-450px;
 color:white;
 font-size:60px;
 font-family:'Raleway-ExtraLight';
-
+font-weight:bold;
 margin-left:1050px;
 margin-top:-450px;
  }
@@ -3600,7 +3561,7 @@ margin-top:-450px;
 color:white;
 font-size:70px;
 font-family:'Raleway-ExtraLight';
-
+font-weight:bold;
 margin-left:-150px;
 margin-top:-400px;
  }
@@ -3608,14 +3569,15 @@ margin-top:-400px;
 color:white;
 font-size:65px;
 font-family:'Raleway-ExtraLight';
+font-weight:bold;
 margin-left:1050px;
-margin-top:-430px;
+margin-top:-500px;
  }
  #heading5{
 color:white;
 font-size:40px;
 font-family:'Raleway-ExtraLight';
-
+font-weight:bold;
 margin-left:-150px;
 margin-top:-425px;
  }
@@ -3623,15 +3585,15 @@ margin-top:-425px;
 color:white;
 font-size:55px;
 font-family:'Raleway-ExtraLight';
-
+font-weight:bold;
 margin-left:1050px;
-margin-top:-470px;
+margin-top:-440px;
  }
  #heading8{
 color:white;
 font-size:34px;
 font-family:'Raleway-ExtraLight';
-
+font-weight:bold;
 margin-left:1050px;
 margin-top:-590px;
  }
@@ -3664,7 +3626,7 @@ margin-left:475px;
 font-size:30px;
 width:400px;
 font-family:'Raleway-ExtraLight';
-
+font-weight:bold;
 margin-top:-60px;
 }
 #text2{
@@ -3673,7 +3635,7 @@ margin-left:100px;
 font-size:30px;
 width:400px;
 font-family:'Raleway-ExtraLight';
-
+font-weight:bold;
 
 }
 #text6{
@@ -3682,7 +3644,8 @@ margin-left:100px;
 font-size:30px;
 width:400px;
 font-family:'Raleway-ExtraLight';
-
+font-weight:bold;
+margin-top:-60px;
 
 }
 
@@ -3692,6 +3655,7 @@ margin-left:300px;
 font-size:30px;
 width:400px;
 font-family:'Raleway-ExtraLight';
+font-weight:bold;
 margin-top:100px!important;
 
 }
@@ -3700,330 +3664,11 @@ color:white;
 margin-left:-200px;
 margin-top:100px !important;
 font-size:30px;
+font-weight:bold;
 width:400px;
 font-family:'Raleway-ExtraLight';
 
 }
-#buttonroadies{
-color:white;
-margin-left:-200px;
-margin-top:40px !important;
-font-size:30px;
-
-width:400px;
-font-family:'Raleway-ExtraLight';
-
-}
-@media screen and (min-width: 728px) and (max-width: 1018px){
-           .letter-container  h4 {
-		     margin-left:-220px;
-			 font-size:10px;
-		   }
-           #headingtop{
-          font-size:24px;
-            }
-			#headingtop2{
-          font-size:24px;
-		  margin-left:400px;
-            }
-			#toptile{
-			height:520px;
-			}
-     #tile1{
-          /*width:820px;*/
-		  height:520px;
-           }
-	#tile2{
-          /*width:820px;*/
-		  margin-top:-8%;
-		  height:520px;
-           }
-	#tile3{
-          /*width:820px;*/
-		  margin-top:-11%;
-		  height:520px;
-           }
-	 #tile5{
-          /*width:820px;*/
-		  margin-top:-10%;
-		  height:520px;
-           }
-	#tilesupersix{
-          /*width:820px;*/
-		  margin-top:-6%;
-		  height:520px;
-           }
-	 #heading1{
-
-	 font-size:24px;
-	 margin-top:-350px;
-	 
-	  }
-      #heading2{
-
-	 font-size:24px;
-	 margin-top:-240px;
-	 margin-left:-170px;
-	 
-	  }
-
-	  #heading3{
-
-	 font-size:24px;
-	 margin-top:-350px;
-	 
-	  }
-	  #heading4{
-
-	 font-size:24px;
-	 margin-top:-240px;
-	 margin-left:-170px;
-	 
-	  }
-	   #heading5{
-
-	 font-size:24px;
-	 margin-top:-240px;
-	 margin-left:-170px;
-	 
-	  }
-	  #heading6{
-
-	 font-size:24px;
-	 margin-top:-240px;
-	 margin-left:-170px;
-	 
-	  }
-	  #heading8{
-
-	 font-size:24px;
-	 margin-top:-460px;
-	 margin-left:-170px;
-	 
-	  }
-	  #image1{
-	     width:210px;
-		 height:210px;
-	  
-	  }
-	  #image2{
-	     width:210px;
-		 height:210px;
-		 margin-left:300px;
-	  
-	  }
-	  #circle1{
-	     width:0px;
-         height:0px;		 
-	  }
-	  #circle2{
-	     width:0px;
-         height:0px;		 
-	  }
-	  
-		#text1{
-        width:250px;  		
-         font-size:20px;
-		 margin-left:300px;
-         }	
-          #text2{
-        width:250px;  		
-         font-size:20px;
-		 margin-left:40px;
-         }	
-          #text6{
-        width:250px;  		
-         font-size:20px;
-		 margin-left:40px;
-         }			 
-       #button1{
-	   width:100px;
-	   font-size:20px;
-       margin-left:-70px;
-          }
-		  #buttonroadies{
-	   width:100px;
-	   font-size:20px;
-       margin-left:-70px;
-          }
-		  #button2{
-	   width:100px;
-	   font-size:20px;
-       margin-left:-70px;
-          }
-		  .letter-container h2 a span {
-	font-size: 70px;
-	margin-left:3%;
-	}
-
-}
-
-
-@media screen and (min-width: 180px) and (max-width: 727px)
-{
-
-.letter-container h2 a span {
-	font-size: 10px;
-	padding:-4%;
-	margin-left:12%;
-	}    
- #headingtop{
-           margin-top:-200px;
-          font-size:12px;
-            }
-			#headingtop2{
-          font-size:12px;
-		  margin-left:200px;
-            }
-			#toptile{
-			height:250px;
-			}
-
-         #tile1{
-          /*width:820px;*/
-		  height:250px;
-		 
-           }
-		   #tile2{
-          /*width:820px;*/
-		  margin-top:-22%;
-		  margin-left:-3%;
-		  height:250px;
-		 
-           }
-		    #tile3{
-          /*width:820px;*/
-		  height:250px;
-		  margin-top:-22%;
-		 
-           }
-		   #tile5{
-          /*width:820px;*/
-		  height:250px;
-		  margin-top:-22%;
-		 
-           }
-		   #tilesupersix{
-          /*width:820px;*/
-		  margin-top:-22%;
-		  margin-left:-3%;
-		  height:10px;
-		 
-           }
-		   #tile7{
-          /*width:820px;*/
-		  height:250px;
-		 margin-top:-12%;
-           }
-		   
-		   #image1{
-	     width:70px;
-		 height:70px;
-		 margin-left:-170px;
-	  
-	  }
-	  #image2{
-	     width:70px;
-		 height:70px;
-		 margin-left:10px;
-		 margin-top:10px;
-	  
-	  }
-	 #heading1{
-
-	 font-size:9px;
-	 margin-top:-200px;
-	 margin-left:-200px;
-	 
-	  }
-	  #heading2{
-
-	 font-size:9px;
-	 margin-top:-200px;
-	 margin-left:-170px;
-	 
-	 
-	  }
-	  #heading3{
-
-	 font-size:9px;
-	 margin-top:-200px;
-	 margin-left:-200px;
-	 
-	  }
-	  #heading4{
-
-	 font-size:9px;
-	 margin-top:-150px;
-	 margin-left:-170px;
-	 
-	 
-	  }
-	  #heading5{
-
-	 font-size:9px;
-	 margin-top:-200px;
-	 margin-left:-180px;
-	 
-	  }
-	  #heading6{
-
-	 font-size:9px;
-	 margin-top:-200px;
-	 margin-left:-170px;
-	 
-	 
-	  }
-	   
-	 
-	  #circle1{
-	     width:0px;
-         height:0px;		 
-	  }
-	   #circle2{
-	     width:0px;
-         height:0px;		 
-	  }
-	  
-		#text1{
-        width:150px;  		
-         font-size:10px;
-		 margin-left:-70px;
-		 margin-top:-100px;
-		 margin-bottom:-10%;
-         }
-          #text2{
-        width:150px;  		
-         font-size:10px;
-		 margin-left:-130px;
-		 margin-top:-100px;
-         }	
-         #text6{
-        width:150px;  		
-         font-size:10px;
-		 margin-left:-130px;
-		 margin-top:-100px;
-         }			 
-       #button1{
-	   width:10px;
-	   font-size:10px;
-       margin-left:-10px;
-	   margin-top:10%;
-          }
-		  #button2{
-	   width:70px;
-	   font-size:10px;
-       margin-left:-10px;
-	   margin-top:300px;
-          }
-		  #buttonroadies{
-	   width:70px;
-	   font-size:10px;
-       margin-left:-10px;
-	   margin-top:300px;
-          }
-}
-
 
 /*fun events css ends*/
 
